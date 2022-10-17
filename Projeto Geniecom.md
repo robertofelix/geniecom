@@ -2,8 +2,7 @@
 
 ## Objetivo
 
-O objetivo desse projeto é recuperar a memória deste simpático Famiclone e documentar a pinagem do joystick deste Clone do NES que foi vendido no Brasil na década de 90. 
-Saiba um pouco mais da história dele [nesse site](https://bojoga.com.br/acervo/consoles-de-mesa/geracao-3/geniecom/).
+O objetivo desse projeto é recuperar a memória deste simpático Famiclone e documentar a pinagem do joystick deste Clone do NES que foi vendido no Brasil na década de 90. Saiba um pouco mais da história dele [nesse site](https://bojoga.com.br/acervo/consoles-de-mesa/geracao-3/geniecom/).
 
 ## Motivação
 
@@ -15,10 +14,12 @@ O vendedor tem um estoque antigo, talvez de uma loja falida, onde está vendendo
 
 O Geniecom foi um Clone fabricado em Tawain, exportado para o Brasil e no Brasil o mesmo era representado pela NTD Eletrônica. Alguma empresa espanhola achou uma boa ideia importar esse vídeogame "brasileiro" e assim o mesmo foi parar na Espanha. E agora, estou eu importando o mesmo da Espanha para o Canadá onde moro... Ou seja, o caminho dele foi Tawain -> Brasil -> Espanha -> Canadá
 
-## Adptador DB-9/DE-9 para NES
+## Adptador DB9/DE9 para NES
 
 O objetivo é usar o 8bitdo Retro Receiver no meu Geniecom, permitindo-me assim jogar com meu controle sem fio no Geniecom assim como faço com o NES.
 Para isto, precisa ser criado um adaptador que faça o conector DB9/E9 receber o conector proprietário do NES.
+
+Sobre o conector DB9, [você pode ler mais aqui](http://www.nullmodem.com/DB-9.htm)
 
 Andando pelo youtube, achei esse vídeo:
 
