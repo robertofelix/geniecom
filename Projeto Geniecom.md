@@ -1,4 +1,4 @@
-# Projeto Adaptador NES para Geniecom DB9 
+# Projeto Adaptador NES para Geniecom DB9 (aka D-sub-9 ou DE9)
 
 ## Objetivo
 
@@ -20,7 +20,7 @@ O Geniecom foi um Clone fabricado em Tawain, exportado para o Brasil e no Brasil
 O objetivo é usar o 8bitdo Retro Receiver no meu Geniecom, permitindo-me assim jogar com meu controle sem fio no Geniecom assim como faço com o NES.
 Para isto, precisa ser criado um adaptador que faça o conector DB9/E9 receber o conector proprietário do NES.
 
-Andando pelo youtube, achei esse vídeo: 
+Andando pelo youtube, achei esse vídeo:
 
 [![Sensacional!](https://img.youtube.com/vi/fYj5p7F7-cc/hqdefault.jpg)](https://youtu.be/fYj5p7F7-cc)
 
