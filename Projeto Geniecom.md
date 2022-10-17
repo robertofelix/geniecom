@@ -46,7 +46,7 @@ O cara foi gente boa demais! [Comprem logo o Geniecom do anúncio dele porque é
 
 E finalmente, sem delongas! O tão procurado mapa de pinagem!
 
-![Mapa Pinagem do Geniecom](https://gitlab.aidentu.com.br/robertofelix/publico/-/raw/main/Geniecom%20DB9%20pinout.png)
+![Mapa Pinagem do Geniecom](https://github.com/robertofelix/geniecom/blob/main/Geniecom%20DB9%20pinout.png)
 
 ## Validação
 
