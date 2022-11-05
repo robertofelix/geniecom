@@ -53,8 +53,14 @@ De forma que iremos comparar com a pinagem do NES
 
 ![Mapa Pinagem do Geniecom](https://github.com/robertofelix/geniecom/blob/main/nes-pinout.png)
 
-## Validação
+Se eu bem entendi, comparando o Geniecom com o NES, temos algumas diferenças que devem ser testadas:
 
-Irei validar o mapa com o fabricante do adaptador para saber se alguma coisa está faltando. Já falei com um amigo que disse que o mapa passado parece suficiente. Agora é torcer para o projeto finalmente se tornar realidade.
+* Marrom no Geniecom é o +5V x Marrom no NES é o Data
+* Laranja no Geniecom suporemos que seja o Data x Laranja no NES é o +5V.
+
+Então:
+
+* Soldaremos o cabo Laranja do NES na porta 05 do DB9
+* Soldaremos o cabo Marrom do NES na porta 06 do DB9
 
 
