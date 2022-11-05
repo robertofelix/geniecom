@@ -49,6 +49,10 @@ E finalmente, sem delongas! O tão procurado mapa de pinagem!
 
 ![Mapa Pinagem do Geniecom](https://github.com/robertofelix/geniecom/blob/main/Geniecom%20DB9%20pinout.png)
 
+De forma que iremos comparar com a pinagem do NES
+
+![Mapa Pinagem do Geniecom](https://github.com/robertofelix/geniecom/blob/main/nes-pinout.png)
+
 ## Validação
 
 Irei validar o mapa com o fabricante do adaptador para saber se alguma coisa está faltando. Já falei com um amigo que disse que o mapa passado parece suficiente. Agora é torcer para o projeto finalmente se tornar realidade.
