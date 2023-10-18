@@ -47,7 +47,7 @@ O cara foi gente boa demais! [Comprem logo o Geniecom do anúncio dele porque é
 
 E finalmente, sem delongas! O tão procurado mapa de pinagem!
 
-![Mapa Pinagem do Geniecom](https://github.com/robertofelix/geniecom/blob/main/Geniecom%20DB9%20pinout.png)
+![Mapa Pinagem do Geniecom](https://github.com/robertofelix/geniecom/blob/main/geniecom_pinout.png)
 
 De forma que iremos comparar com a pinagem do NES
 
