@@ -107,3 +107,9 @@ O resultado final é:
  | Geniecom Port 5 | Data | Green | NES Port 4 | Data |
  | Geniecom Port 6 | Clock | Blue | NES Port 2 | Clock |
  | Geniecom Port 9 | VCC +5V | White | NES Port 5 | VCC +5V |
+
+## Bônus
+
+Pinagem dos demais clones que consegui coletar:
+
+![Clone Wars](https://github.com/robertofelix/geniecom/blob/main/demais_clones_pinout.png)
