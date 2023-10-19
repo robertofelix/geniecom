@@ -37,7 +37,7 @@ Procurei pelo Twitter, Reddit, Facebook (posts e grupos), além de Mercado Livre
 
 E finalmente, o tão procurado mapa de pinagem! Lucas ainda consegui identificar o pino pelo qual o Geniecom manda o som para o joystick que tem porta P2.
 
-![Mapa Pinagem do Geniecom](https://github.com/robertofelix/geniecom/blob/main/geniecom_pinout.png)
+![Mapa Pinagem do Geniecom](https://github.com/robertofelix/geniecom/blob/main/geniecompinout.png)
 
 De forma que iremos comparar com a pinagem do NES
 
