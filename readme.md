@@ -37,11 +37,11 @@ Procurei pelo Twitter, Reddit, Facebook (posts e grupos), além de Mercado Livre
 
 E finalmente, o tão procurado mapa de pinagem! Lucas ainda consegui identificar o pino pelo qual o Geniecom manda o som para o joystick que tem porta P2.
 
-![Mapa Pinagem do Geniecom](https://github.com/robertofelix/geniecom/blob/main/geniecompinout.png)
+![Mapa Pinagem do Geniecom](https://github.com/robertofelix/geniecom/blob/main/geniecom_pinout.png)
 
 De forma que iremos comparar com a pinagem do NES
 
-![Mapa Pinagem do NES](https://github.com/robertofelix/geniecom/blob/main/nespinout.png)
+![Mapa Pinagem do NES](https://github.com/robertofelix/geniecom/blob/main/nes_pinout.png)
 
 Para os leigos (como eu) **Strobe == Latch**
 
@@ -51,5 +51,12 @@ Como o Geniecom tem os conectores db9/de9 fêmeas muito profundos, o macho tamb�
 
 Contudo, é importante notar que precisamos do mapa de pinagem do [Mega Drive 6-Button (X,Y,Z) Controller o qual achei aqui](https://www.raspberryfield.life/2019/03/25/sega-mega-drive-genesis-6-button-xyz-controller/#SMD6-protocol-overview).
 
-![Mapa Pinagem do Mega Drive 6-Button](https://github.com/robertofelix/geniecom/blob/main/genesis.png)
+![Mapa Pinagem do Mega Drive 6-Button](https://github.com/robertofelix/geniecom/blob/main/mega_drive_6_button_pinout.png)
 
+Dessa forma, a combinação seria
+
+Genesis 1 -> Geniecom
+Genesis 1 -> Geniecom
+Genesis 1 -> Geniecom
+Genesis 1 -> Geniecom
+Genesis 1 -> Geniecom
