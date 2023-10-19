@@ -41,7 +41,7 @@ E finalmente, o tão procurado mapa de pinagem! Lucas ainda consegui identificar
 
 De forma que iremos comparar com a pinagem do NES
 
-![Mapa Pinagem do NES](https://github.com/robertofelix/geniecom/blob/main/nes-pinout.png)
+![Mapa Pinagem do NES](https://github.com/robertofelix/geniecom/blob/main/nespinout.png)
 
 Para os leigos (como eu) **Strobe == Latch**
 
