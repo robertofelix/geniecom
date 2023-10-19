@@ -77,7 +77,7 @@ O mapa de pinagem do Geniecom é:
  | Geniecom Port 2 | Sound |
  | Geniecom Port 3 | Latch |
  | Geniecom Port 4 | X |
- | Geniecom Port 5 | Data
+ | Geniecom Port 5 | Data |
  | Geniecom Port 6 | Clock |
  | Geniecom Port 7 | X |
  | Geniecom Port 8 | X |
@@ -87,10 +87,22 @@ O mapa de pinagem do NES é:
 
  | Port | Function |
  | --- | --- |
- | NES Port 1 | GND (Ground)
- | NES Port 2 | Clock
- | NES Port 3 | Latch
- | NES Port 4 | Data
- | NES Port 5 | VCC +5V
- | NES Port 6 | Zapper Pistol Data
- | NES Port 7 | Zapper Pistol Data
+ | NES Port 1 | GND (Ground) |
+ | NES Port 2 | Clock |
+ | NES Port 3 | Latch |
+ | NES Port 4 | Data |
+ | NES Port 5 | VCC +5V |
+ | NES Port 6 | Zapper Pistol Data |
+ | NES Port 7 | Zapper Pistol Data| 
+
+## Resultado Final
+
+O resultado final é:
+
+ | Port | Function |
+ | --- | --- |
+ | Geniecom Port 1 | GND (Ground) | Brown | NES Port 1 | GND (Ground) |
+ | Geniecom Port 3 | Latch | Orange | NES Port 3 | Latch |
+ | Geniecom Port 5 | Data | Green | NES Port 4 | Data |
+ | Geniecom Port 6 | Clock | Blue | NES Port 2 | Clock |
+ | Geniecom Port 9 | VCC +5V | White | NES Port 5 | VCC +5V |
