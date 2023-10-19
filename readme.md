@@ -35,17 +35,15 @@ Se você tiver um Phantom System, Top Game, Geniecom ou Turbo Game, o Lucas Guil
 
 Procurei pelo Twitter, Reddit, Facebook (posts e grupos), além de Mercado Livre e Shopee. Não encontrei a documentação. Até que topei com os anúncios do Lucas Guilherme no Shopee. Vi as reviews dele como vendedor que me deram confiança no profissional. Resolvi então adquirir um Geniecom no Mercado Livre e mandei entregar na casa dele em Araraquara. Ele abriu o console, fez a documentação da pinagem e compartilhou comigo. Adquiri 2 adaptadores com ele mas solicitei a mapa de pinagem e vou tentar fazer um adaptador aqui em Montreal.
 
-E finalmente, o tão procurado mapa de pinagem!
-
-Para os leigos (como eu) **Strobe == Latch**
-
-Lucas ainda consegui identificar o pino pelo qual o Geniecom manda o som para o joystick que tem porta P2.
+E finalmente, o tão procurado mapa de pinagem! Lucas ainda consegui identificar o pino pelo qual o Geniecom manda o som para o joystick que tem porta P2.
 
 ![Mapa Pinagem do Geniecom](https://github.com/robertofelix/geniecom/blob/main/geniecom_pinout.png)
 
 De forma que iremos comparar com a pinagem do NES
 
 ![Mapa Pinagem do NES](https://github.com/robertofelix/geniecom/blob/main/nes-pinout.png)
+
+Para os leigos (como eu) **Strobe == Latch**
 
 ## Elaboração do adaptador
 
