@@ -53,6 +53,8 @@ Contudo, é importante notar que precisamos do mapa de pinagem do [Mega Drive 6-
 
 ![Mapa Pinagem do Mega Drive 6-Button](https://github.com/robertofelix/geniecom/blob/main/mega_drive_6_button_pinout.png)
 
+## Sumário de Pinagens
+
 Dessa forma, a sequência do db9/de9 do Mega Drive segundo as cores é:
 
  | Port | Color |  
