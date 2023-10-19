@@ -99,8 +99,8 @@ O mapa de pinagem do NES é:
 
 O resultado final é:
 
- | Port | Function |
- | --- | --- |
+ | Port Geniecom | Function | Color | NES Port | Function |
+ | --- | --- | --- | --- | --- |
  | Geniecom Port 1 | GND (Ground) | Brown | NES Port 1 | GND (Ground) |
  | Geniecom Port 3 | Latch | Orange | NES Port 3 | Latch |
  | Geniecom Port 5 | Data | Green | NES Port 4 | Data |
