@@ -1,4 +1,4 @@
-# Projeto Adaptador NES para Geniecom DB9 (aka D-sub-9 ou DE9)
+# Projeto Adaptador NES para Geniecom db9 (D-sub-9 ou de9)
 
 ## Objetivo
 
@@ -25,12 +25,7 @@ Andando pelo youtube, achei esse vídeo:
 
 [![Sensacional!](https://img.youtube.com/vi/fYj5p7F7-cc/hqdefault.jpg)](https://youtu.be/fYj5p7F7-cc)
 
-
-Fiquei maravilhado! Esse vídeo me levou para o Shopee onde achei [o gênio por traz do mesmo](https://shopee.com.br/Controle-Nes-8-Bits-Adapter-Para-Jogar-No-Turbo-Game-Phamtom-i.303516671.12405585571?xptdk=4372ea12-6468-4091-833f-f64e535032ac).
-
-Se você tiver um Phantom System, Top Game ou Turbo Game, ele já tem os projetos prontos para venda. [Confere lá](https://shopee.com.br/Controle-Nes-8-Bits-Adapter-Para-Jogar-No-Turbo-Game-Phamtom-i.303516671.12405585571?xptdk=4372ea12-6468-4091-833f-f64e535032ac)
-
-Entrei em contato com ele, que disse que se eu conseguisse o mapa de pinagem do Geniecom, ele poderia fazer o adaptador sem nenhum problema, visto que o projeto seria alterado apenas na ordem dos fios a serem soldados.
+Se você tiver um Phantom System, Top Game, Geniecom ou Turbo Game, o Lucas Guilherme já tem os projetos prontos para venda. [Confere lá](https://shopee.com.br/shop/353762657)
 
 ### Coleta de Informações
 
@@ -40,12 +35,10 @@ Entrei em contato com ele, que disse que se eu conseguisse o mapa de pinagem do 
 
 ## Busca
 
-Procurei pelo Twitter, Reddit, Facebook (posts e grupos), além de Mercado Livre e Shopee. Não encontrei a documentação.
-Não desisti, contactei os vendedores do Mercado Livre para saber se algum deles poderia me extrair o mapa, até que essa alma caridosa [desse anúncio me ofereceu o mapa](https://produto.mercadolivre.com.br/MLB-2143952783-geniecom-clone-nes-_JM).
+Procurei pelo Twitter, Reddit, Facebook (posts e grupos), além de Mercado Livre e Shopee. Não encontrei a documentação. Até que topei com os anúncios do Lucas no Shopee. Vi as reviews dele que me deu confiança, resolvi adquirir um Geniecom no Mercado Livre e mandei entregar na casa dele em Araraquara. Ele abriu o console, fez a documentação e compartilhou comigo. Adquiri 2 adaptadores com ele mas solicitei o pinout e vou tentar fazer um adaptador aqui para fins educacionais.
 
-O cara foi gente boa demais! [Comprem logo o Geniecom do anúncio dele porque é confiabilíssimo](https://produto.mercadolivre.com.br/MLB-2143952783-geniecom-clone-nes-_JM)!
-
-E finalmente, sem delongas! O tão procurado mapa de pinagem!
+E finalmente, sem delongas,  p tão procurado mapa de pinagem!P ara os leigos (como eu) Strobe == Latch.
+Lucas ainda consegui identificar o pino pelo qual o Geniecom manda o som para o joystick que tem porta P2.
 
 ![Mapa Pinagem do Geniecom](https://github.com/robertofelix/geniecom/blob/main/geniecom_pinout.png)
 
