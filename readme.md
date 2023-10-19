@@ -53,10 +53,34 @@ Contudo, é importante notar que precisamos do mapa de pinagem do [Mega Drive 6-
 
 ![Mapa Pinagem do Mega Drive 6-Button](https://github.com/robertofelix/geniecom/blob/main/mega_drive_6_button_pinout.png)
 
-Dessa forma, a combinação seria
+Dessa forma, a sequência do db9/de9 do Mega Drive segundo as cores é:
 
-Genesis 1 -> Geniecom
-Genesis 1 -> Geniecom
-Genesis 1 -> Geniecom
-Genesis 1 -> Geniecom
-Genesis 1 -> Geniecom
+|      Port      |  Color |  
+| -------------------------
+| Genesis Port 1 | Brown  |
+| Genesis Port 2 | Red    |
+| Genesis Port 3 | Orange |
+| Genesis Port 4 | Yellow |
+| Genesis Port 5 | Green  |
+| Genesis Port 6 | Blue   |
+| Genesis Port 7 | Grey   |
+| Genesis Port 8 | Black  |
+| Genesis Port 9 | White  |
+
+| Geniecom Port 1 - GND (Ground)
+| Geniecom Port 2 - Sound
+| Geniecom Port 3 - Latch
+| Geniecom Port 4 - X
+| Geniecom Port 5 - Data
+| Geniecom Port 6 - Clock
+| Geniecom Port 7 - X
+| Geniecom Port 8 - X
+| Geniecom Port 9 - VCC +5V
+
+| NES Port 1 - GND (Ground)
+| NES Port 2 - Clock
+| NES Port 3 - Latch
+| NES Port 4 - Data
+| NES Port 5 - VCC +5V
+| NES Port 6 - Zapper Pistol Data
+| NES Port 7 - Zapper Pistol Data
