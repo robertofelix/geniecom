@@ -55,17 +55,17 @@ Contudo, é importante notar que precisamos do mapa de pinagem do [Mega Drive 6-
 
 Dessa forma, a sequência do db9/de9 do Mega Drive segundo as cores é:
 
-|      Port      |  Color |  
-| -------------------------
-| Genesis Port 1 | Brown  |
-| Genesis Port 2 | Red    |
-| Genesis Port 3 | Orange |
-| Genesis Port 4 | Yellow |
-| Genesis Port 5 | Green  |
-| Genesis Port 6 | Blue   |
-| Genesis Port 7 | Grey   |
-| Genesis Port 8 | Black  |
-| Genesis Port 9 | White  |
+ |      Port      |  Color |  
+ | -------------------------
+ | Genesis Port 1 | Brown  |
+ | Genesis Port 2 | Red    |
+ | Genesis Port 3 | Orange |
+ | Genesis Port 4 | Yellow |
+ | Genesis Port 5 | Green  |
+ | Genesis Port 6 | Blue   |
+ | Genesis Port 7 | Grey   |
+ | Genesis Port 8 | Black  |
+ | Genesis Port 9 | White  |
 
 | Geniecom Port 1 - GND (Ground)
 | Geniecom Port 2 - Sound
