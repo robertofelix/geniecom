@@ -37,7 +37,8 @@ Se você tiver um Phantom System, Top Game, Geniecom ou Turbo Game, o Lucas Guil
 
 Procurei pelo Twitter, Reddit, Facebook (posts e grupos), além de Mercado Livre e Shopee. Não encontrei a documentação. Até que topei com os anúncios do Lucas no Shopee. Vi as reviews dele que me deu confiança, resolvi adquirir um Geniecom no Mercado Livre e mandei entregar na casa dele em Araraquara. Ele abriu o console, fez a documentação e compartilhou comigo. Adquiri 2 adaptadores com ele mas solicitei o pinout e vou tentar fazer um adaptador aqui para fins educacionais.
 
-E finalmente, sem delongas,  p tão procurado mapa de pinagem!P ara os leigos (como eu) Strobe == Latch.
+E finalmente, sem delongas,  p tão procurado mapa de pinagem!
+Para os leigos (como eu) **Strobe == Latch**
 Lucas ainda consegui identificar o pino pelo qual o Geniecom manda o som para o joystick que tem porta P2.
 
 ![Mapa Pinagem do Geniecom](https://github.com/robertofelix/geniecom/blob/main/geniecom_pinout.png)
