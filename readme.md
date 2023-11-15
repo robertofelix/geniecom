@@ -123,3 +123,7 @@ Esta belezinha!
 Pinagem dos demais clones que consegui coletar:
 
 ![Clone Wars](https://github.com/robertofelix/geniecom/blob/main/demais_clones_pinout.png)
+
+## Agradecimentos
+
+Ao [Lucas Guilherme](https://shopee.com.br/shop/353762657) que topou o desafio pelo prazer do conhecimento e da novidade. Não tenho como recomendar mais o cara, foi muito companheiro nesse projetinho. E ao [Ícaro Jonas](https://github.com/icaroj) que transcodificou o Geniecom assim como fez o cabo usando o mapa fornecido pelo Lucas. Vocês são 10/10! Também reconhecer minha insistência em ficar procurando incessantemente isso, até chegar ao ponto de ter que gastar algum dinheiro porém gerando conteúdo novo para ser compartilhado com os fãs do Geniecom :-)
