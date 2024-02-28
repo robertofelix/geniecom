@@ -52,7 +52,7 @@ Perspectiva olhando o conector do console frontalmente.
 
 ![Mapa Pinagem do Geniecom Console Facing](https://github.com/robertofelix/geniecom/blob/main/geniecom_console_facing.png)
 
-### Famicom e Genicom Pinout Console Facing
+### Famicom e Geniecom Pinout Console Facing
 
 O Lucas concluiu que a pinagem da porta db15 do Geniecom tinha o mesmo padrão do Famicom. Ou seja, a [Gun Light](https://www.ebay.com/sch/i.html?_from=R40&_trksid=p4432023.m570.l1312&_nkw=Gun+light+famicom&_sacat=0) do Famicom deve funcionar no Geniecom.
 
