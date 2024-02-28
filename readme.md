@@ -2,17 +2,17 @@
 
 ## Objetivo
 
-O objetivo desse projeto é recuperar a memória deste simpático Famiclone e documentar a pinagem do joystick deste Clone do NES que foi vendido no Brasil na década de 90. Saiba um pouco mais da história dele [nesse site](https://bojoga.com.br/acervo/consoles-de-mesa/geracao-3/geniecom/).
+O objetivo do projeto é recuperar a memória deste simpático Famiclone e documentar a pinagem do joystick do mesmo. Saiba um pouco mais da história dele [nesse site](https://bojoga.com.br/acervo/consoles-de-mesa/geracao-3/geniecom/).
 
 ## Motivação
 
-Tenho um NES Americano onde uso no mesmo um adaptador 8bitdo [Retro Receiver](https://www.8bitdo.com/retro-receiver-nes/). Este adaptador me permite jogar com qualquer controle bluetooth no NES. Particularmente, eu uso o [SN30 Pro+](https://www.8bitdo.com/sn30-pro-plus/) que, na minha opinião, é um dos melhores que já usei. Recentemente, saiu a atualização do mesmo que agora se chama [Pro2](https://www.8bitdo.com/pro2/), com mais botões e outras novidades, eu também o tenho e recomendo.
+Tenho um NES Americano onde uso um adaptador 8bitdo [Retro Receiver](https://www.8bitdo.com/retro-receiver-nes/) para jogar sem fio. Este adaptador permite jogar com qualquer controle bluetooth no NES. Eu uso o [SN30 Pro+](https://www.8bitdo.com/sn30-pro-plus/), que é um dos melhores que já usei. Recentemente, saiu a atualização do mesmo que agora se chama [Pro2](https://www.8bitdo.com/pro2/), com mais botões e outras novidades, eu também o tenho e recomendo.
 
-Meu primeiro Nintendo 8 bits foi o Geniecom, por conta dessa saudade e nostalgia, resolvi procurar um para comprar e o achei no [eBay através desse vendedor que mora na Espanha](https://www.ebay.com/itm/134358526809?mkcid=16&mkevt=1&mkrid=711-127632-2357-0&ssspo=55HXj8BsSfS&sssrc=2047675&ssuid=DWiQR02CTjm&widget_ver=artemis&media=COPY). O vendedor tem um estoque antigo, que talvez seja de uma loja falida. O certo é que ele está vendendo não somente o Geniecom mas como também outros produtos da década de 90 que hoje não tem valor financeiro.
+Meu primeiro Nintendo 8 bits foi o Geniecom, por conta dessa saudade e nostalgia, resolvi procurar um para comprar e o achei no [eBay através desse vendedor que mora na Espanha](https://www.ebay.com/itm/134358526809?mkcid=16&mkevt=1&mkrid=711-127632-2357-0&ssspo=55HXj8BsSfS&sssrc=2047675&ssuid=DWiQR02CTjm&widget_ver=artemis&media=COPY). O vendedor tem um estoque antigo, que talvez seja de uma loja falida. O certo é que ele está vendendo não somente o Geniecom, mas como também outros produtos da década de 90.
 
-O Geniecom foi um Famiclone fabricado em Tawain e exportado para o Brasil, onde no Brasil o mesmo era representado pela NTD Eletrônica. Durante minhas pesquisas, descobri que alguma empresa espanhola achou uma boa ideia importar esse vídeogame "brasileiro" e assim o mesmo foi parar na Espanha sob o nome de [Mx Onda MX-VJ30S](https://www.va-de-retro.com/foros/viewtopic.php?t=2888). Porém, pelo jeito também houve unidades vendidas na Espanha com o nome Geniecom. Agora, estou eu importando o mesmo da Espanha para o Canadá onde moro. Ou seja, o caminho dele foi Tawain -> Brasil -> Espanha -> Canadá, ou apenas Tawain -> Espanha -> Canadá, quem sabe?!
+O Geniecom foi um Famiclone fabricado em Tawain e exportado para o Brasil. Ele era era representado pela NTD Eletrônica. Durante minhas pesquisas, descobri que alguma empresa espanhola achou uma boa ideia importar esse vídeogame "brasileiro" e assim o mesmo foi parar na Espanha sob o nome de [Mx Onda MX-VJ30S](https://www.va-de-retro.com/foros/viewtopic.php?t=2888). Porém, pelo jeito também houve unidades vendidas na Espanha com o nome Geniecom. Agora, estou eu importando o mesmo da Espanha para o Canadá onde moro. Ou seja, o caminho dele foi Tawain -> Brasil -> Espanha -> Canadá, ou apenas Tawain -> Espanha -> Canadá, quem sabe?!
 
-O Geniecom chegou em minha casa impecável. Único 'defeito' era que ele veio transcodificado no formato [PAL](https://en.wikipedia.org/wiki/PAL#PAL_region), o que faz completo sentido já que ele veio da Espanha cujo o padrão era esse. De forma que tive que contar com a ajuda de o [Ícaro Jonas](https://github.com/icaroj) que trocou a CPU, PPU e o Cristal dele, colocando as respectivas peças em padrão NTSC. Para isso, tive que sacrificar um NES reserva e o tempo do Ícaro :D
+O Geniecom chegou em minha casa impecável. Único 'defeito' era que ele veio transcodificado no formato [PAL](https://en.wikipedia.org/wiki/PAL#PAL_region), o que faz completo sentido já que ele veio da Espanha cujo o padrão era esse. De forma que tive que contar com a ajuda de o [Ícaro Jonas](https://github.com/icaroj) que trocou a CPU, PPU e o Cristal Oscilador, colocando as respectivas peças do padrão NTSC. Para isso, tive que sacrificar um NES reserva e o tempo do Ícaro :D
 
 ## Adaptador db9/de9 para NES
 
@@ -34,11 +34,11 @@ Se você tiver um Phantom System, Top Game, Geniecom ou Turbo Game, o Lucas Guil
 
 ## Busca
 
-Procurei pelo Twitter, Reddit, Facebook (posts e grupos), além de Mercado Livre e Shopee. Não encontrei a documentação em canto nenhum na internet, não existia. Até que topei com os anúncios do Lucas Guilherme no Shopee. Vi as reviews dele como vendedor, que me deram confiança na pessoa e no profissional. 
+Procurei pelo Twitter, Reddit, Facebook (posts e grupos), além de Mercado Livre e Shopee. Não encontrei a documentação em canto nenhum na internet, não existia. Até que topei com os anúncios do Lucas Guilherme no Shopee. Vi as reviews dele como vendedor, que me deram confiança na pessoa e no profissional.
 
-Resolvi então adquirir um Geniecom usado no Mercado Livre e mandei entregar na casa dele em Araraquara. Ele abriu o console, fez pequenos reparos de solda, e fez a documentação da pinagem, compartilhando a informação comigo. Adquiri 01 adaptador com o Lucas mas o solicitei o mapa de pinagem para fazer um adaptador aqui em Montreal. Mais uma vez, entra em cena [Ícaro Jonas](https://github.com/icaroj) que, seguindo a documentação do Lucas, confeccionou dois adaptadores para mim <3
+Resolvi então adquirir um Geniecom usado no Mercado Livre e mandei entregar na casa dele em Araraquara. Ele abriu o console, fez pequenos reparos de solda e fez a documentação da pinagem, compartilhando a informação comigo. Adquiri 01 adaptador com o Lucas, mas com o mapa de pinagem em mãos, resolvi fazer um adaptador aqui em Montreal. Mais uma vez, entra em cena [Ícaro Jonas](https://github.com/icaroj) que, seguindo a documentação do Lucas, confeccionou dois adaptadores para mim <3
 
-E finalmente, o tão procurado mapa de pinagem! Lucas ainda consegui identificar o pino pelo qual o Geniecom envia o som para o joystick, lembrando que o joystick do Geniecom tem uma porta de áuido P2, coisa muito a frente de seu tempo. Como o NES não tem a mesma função, iremos ignorar o Sound que está mapeado na Port 2 do Geniecom.
+E finalmente, o tão procurado mapa de pinagem! Lucas ainda consegui identificar o pino pelo qual o Geniecom envia o som para o joystick, lembrando que o joystick do Geniecom tem uma porta de áuido P2 (banana pequeno no popular), coisa muito a frente de seu tempo. Como o NES não tem a mesma função, iremos ignorar o Sound que está mapeado na Port 2 do Geniecom.
 
 ### Geniecom Pinout Gamepad Facing
 
@@ -54,7 +54,11 @@ Perspectiva olhando o conector do console frontalmente.
 
 ### Famicom e Genicom Pinout Console Facing
 
-O Lucas percebeu que a pinagem da porta db15 do Geniecom tinha o mesmo padrão do Famicom. Ou seja, a [Gun Light](https://www.ebay.com/sch/i.html?_from=R40&_trksid=p4432023.m570.l1312&_nkw=Gun+light+famicom&_sacat=0) do Famicom deve funcionar no Geniecom. No futuro, irei comprar uma e testar. 
+O Lucas concluiu que a pinagem da porta db15 do Geniecom tinha o mesmo padrão do Famicom. Ou seja, a [Gun Light](https://www.ebay.com/sch/i.html?_from=R40&_trksid=p4432023.m570.l1312&_nkw=Gun+light+famicom&_sacat=0) do Famicom deve funcionar no Geniecom.
+
+Então, com isso em mente eu pensei: por que não procurar um adaptador Famicom  -> NES? E eu achei aqui na [Mister Addons](https://misteraddons.com/products/nes-controllers-to-famicom-console-adapter?_pos=1&_psq=NES%20f&_ss=e&_v=1.0). Comprei e aguardei o adaptador chegar.
+
+Recebi o mesmo e consegui colocar 2 joysticks de NES no Geniecom pela porta db15, como também consegui ligar a [Pistola Zapper](https://en.wikipedia.org/wiki/NES_Zapper) do NES no conector 2 do adaptador. Acho que nunca vi na internet ninguém dizer que ligou uma Zapper ou qualquer outra pistola no Geniecom. E também acho que ninguém nunca viu sendo vedido uma pistola para o Geniecom. 
 
 ![Mapa Pinagem do Famicom e Geniecom](https://github.com/robertofelix/geniecom/blob/main/famicom_console_facing.png)
 
