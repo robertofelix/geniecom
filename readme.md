@@ -6,7 +6,7 @@ O objetivo do projeto é recuperar a memória deste simpático Famiclone e docum
 
 ## Motivação
 
-Tenho um NES Americano onde uso um adaptador 8bitdo [Retro Receiver](https://www.8bitdo.com/retro-receiver-nes/) para jogar sem fio. Este adaptador permite jogar com qualquer controle bluetooth no NES. Eu uso o [SN30 Pro+](https://www.8bitdo.com/sn30-pro-plus/), que é um dos melhores que já usei. Recentemente, saiu a atualização do mesmo que agora se chama [Pro2](https://www.8bitdo.com/pro2/), com mais botões e outras novidades, eu também o tenho e recomendo.
+Tenho um NES Americano onde uso um adaptador 8Bitdo [Retro Receiver](https://www.8bitdo.com/retro-receiver-nes/) para jogar sem fio. Este adaptador permite jogar com qualquer controle bluetooth no NES. Eu uso o [SN30 Pro+](https://www.8bitdo.com/sn30-pro-plus/), que é um dos melhores que já usei. Recentemente, saiu a atualização do mesmo que agora se chama [Pro2](https://www.8bitdo.com/pro2/), com mais botões e outras novidades, eu também o tenho e recomendo.
 
 Meu primeiro Nintendo 8 bits foi o Geniecom, por conta dessa saudade e nostalgia, resolvi procurar um para comprar e o achei no [eBay através desse vendedor que mora na Espanha](https://www.ebay.com/itm/134358526809?mkcid=16&mkevt=1&mkrid=711-127632-2357-0&ssspo=55HXj8BsSfS&sssrc=2047675&ssuid=DWiQR02CTjm&widget_ver=artemis&media=COPY). O vendedor tem um estoque antigo, que talvez seja de uma loja falida. O certo é que ele está vendendo não somente o Geniecom, mas como também outros produtos da década de 90.
 
@@ -16,15 +16,19 @@ O Geniecom chegou em minha casa impecável. Único 'defeito' era que ele veio tr
 
 ## Adaptador db9/de9 para NES
 
-O objetivo é usar o 8bitdo [Retro Receiver](https://www.8bitdo.com/retro-receiver-nes/) no Geniecom, permitindo assim jogar com o controle sem fio assim como faço com o NES. Para isso, preciso descobrir o mapa de pinagem do Geniecom para fazer o conector db9/de9 receber o conector proprietário do NES.
+O objetivo é usar o 8Bitdo [Retro Receiver](https://www.8bitdo.com/retro-receiver-nes/) no Geniecom, permitindo assim jogar com o controle sem fio assim como faço com o NES. Para isso, preciso descobrir o mapa de pinagem do Geniecom para fazer o conector db9/de9 receber o conector proprietário do NES.
 
-Sobre o conector db9/de9, [você pode ler mais aqui](http://www.nullmodem.com/DB-9.htm)
+Sobre o conector db9/de9, [você pode ler mais aqui](http://www.nullmodem.com/DB-9.htm).
 
-Andando pelo youtube, achei esse vídeo:
+Andando pelo YouTube, achei esse vídeo:
 
-[![Sensacional!](https://img.youtube.com/vi/fYj5p7F7-cc/hqdefault.jpg)](https://youtu.be/fYj5p7F7-cc)
+<div align="center">
+  <img src="https://img.youtube.com/vi/fYj5p7F7-cc/hqdefault.jpg" alt="Vídeo sobre adaptador NES">
+</div>
 
-Se você tiver um Phantom System, Top Game, Geniecom ou Turbo Game, o Lucas Guilherme já tem os adaptadores prontos para venda. [Confira aqui](https://shopee.com.br/shop/353762657)
+**Vídeo:** [Canal Youtube do Cirne](https://youtu.be/fYj5p7F7-cc)
+
+Se você tiver um Phantom System, Top Game, Geniecom ou Turbo Game, o Lucas Guilherme já tem os adaptadores prontos para venda. [Confira aqui](https://shopee.com.br/shop/353762657).
 
 ## Coleta de Informações
 
@@ -58,7 +62,7 @@ O Lucas concluiu que a pinagem da porta db15 do Geniecom tinha o mesmo padrão d
 
 Então, com isso em mente eu pensei: por que não procurar um adaptador Famicom  -> NES? E eu achei aqui na [Mister Addons](https://misteraddons.com/products/nes-controllers-to-famicom-console-adapter?_pos=1&_psq=NES%20f&_ss=e&_v=1.0). Comprei e aguardei o adaptador chegar.
 
-Recebi o mesmo e consegui colocar 2 joysticks de NES no Geniecom pela porta db15, como também consegui ligar a [Pistola Zapper](https://en.wikipedia.org/wiki/NES_Zapper) do NES no conector 2 do adaptador. Acho que nunca vi na internet ninguém dizer que ligou uma Zapper ou qualquer outra pistola no Geniecom. E também acho que ninguém nunca viu sendo vedido uma pistola para o Geniecom. 
+Recebi o mesmo e consegui colocar 2 joysticks de NES no Geniecom pela porta db15, como também consegui ligar a [Pistola Zapper](https://en.wikipedia.org/wiki/NES_Zapper) do NES no conector 2 do adaptador. Acho que nunca vi na internet ninguém dizer que ligou uma Zapper ou qualquer outra pistola no Geniecom. E também acho que ninguém nunca viu sendo vedido uma pistola para o Geniecom.
 
 ![Mapa Pinagem do Famicom e Geniecom](https://github.com/robertofelix/geniecom/blob/main/famicom_console_facing.png)
 
@@ -120,13 +124,26 @@ NES
 
 Esta belezinha!
 
-![Adaptador Geniecom - NES](https://github.com/robertofelix/geniecom/blob/main/adaptadornesgeniecom.png)
+![Adaptador NES Geniecom](https://github.com/robertofelix/geniecom/blob/main/adaptadornesgeniecom.png)
 
 ## Bônus
 
 Pinagem dos demais clones que consegui coletar:
 
 ![Clone Wars](https://github.com/robertofelix/geniecom/blob/main/demais_clones_pinout.png)
+
+## Atualização
+
+11 de Junho de 2025
+
+Eu comecei a me interessar mais e mais por eletrônica e retro consoles. Dai, resolvi criar um projeto na [JLCPCB](https://jlcpcb.com/) para confeccionar a [PCB](https://es.wikipedia.org/wiki/Circuito_impreso) com a pinagem que converte NES para Geniecom.
+
+O projeto [Gerber está aqui para quem quiser usar](https://github.com/robertofelix/geniecom/blob/main/gerber_geniecom.zip). Façam bom proveito! Comprei os seguintes conectores:
+
+* [NES 7 Pinos Right Angle](https://www.aliexpress.com/item/32828024202.html)
+* [DB9 Female](https://www.aliexpress.com/item/4001214300548.html)
+
+Quando a PCB chegar, irei atualizar essa página com fotos!
 
 ## Agradecimentos
 
