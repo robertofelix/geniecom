@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="780" viewBox="0 0 1200 780"><g font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif">
+<rect width="1200" height="780" fill="#fff"/><rect x="30" y="30" width="1140" height="720" rx="18" fill="#fff" stroke="#e5e7eb" stroke-width="2"/>
+<text x="600.0" y="92" text-anchor="middle" font-size="30" font-weight="700" fill="#111827">NES controller</text>
+<path d="M501,150 L665,150 L725,210 L725,584 Q725,610 699,610 L501,610 Q475,610 475,584 L475,176 Q475,150 501,150 Z" fill="#f3f4f6" stroke="#6b7280" stroke-width="4" stroke-linejoin="round"/>
+<path d="M517,176 L657,176 L701,220 L701,566 Q701,584 683,584 L517,584 Q499,584 499,566 L499,194 Q499,176 517,176 Z" fill="#e5e7eb" stroke="#9ca3af" stroke-width="2" stroke-linejoin="round"/>
+<path d="M550,250 L435,250" stroke="#8b5a3c" stroke-width="7" stroke-linecap="round"/>
+<text x="417" y="260" text-anchor="end" font-size="30" font-weight="600" fill="#8b5a3c">Ground</text>
+<path d="M550,330 L435,330" stroke="#dc2626" stroke-width="7" stroke-linecap="round"/>
+<text x="417" y="340" text-anchor="end" font-size="30" font-weight="600" fill="#dc2626">Clock</text>
+<path d="M550,410 L435,410" stroke="#ea7a1a" stroke-width="7" stroke-linecap="round"/>
+<text x="417" y="420" text-anchor="end" font-size="30" font-weight="600" fill="#d96a0a">Latch or Strobe</text>
+<path d="M550,490 L435,490" stroke="#eab308" stroke-width="7" stroke-linecap="round"/>
+<text x="417" y="500" text-anchor="end" font-size="30" font-weight="600" fill="#b58900">Data</text>
+<path d="M650,290 L765,290" stroke="#c8bd8a" stroke-width="7" stroke-linecap="round"/>
+<text x="783" y="300" font-size="30" font-weight="600" fill="#8a7f4e">Power or VCC +5V</text>
+<path d="M650,370 L765,370" stroke="#1e4e8c" stroke-width="7" stroke-linecap="round"/>
+<text x="783" y="380" font-size="30" font-weight="600" fill="#1e4e8c">D3</text>
+<path d="M650,450 L765,450" stroke="#8b3f78" stroke-width="7" stroke-linecap="round"/>
+<text x="783" y="460" font-size="30" font-weight="600" fill="#8b3f78">D4</text>
+<circle cx="550" cy="250" r="27" fill="#8b5a3c" stroke="#8b5a3c" stroke-width="3"/><circle cx="550" cy="250" r="27" fill="none" stroke="#fff" stroke-opacity=".35" stroke-width="1"/>
+<text x="550" y="258" text-anchor="middle" font-size="22" font-weight="700" fill="#fff">1</text>
+<circle cx="550" cy="330" r="27" fill="#dc2626" stroke="#dc2626" stroke-width="3"/><circle cx="550" cy="330" r="27" fill="none" stroke="#fff" stroke-opacity=".35" stroke-width="1"/>
+<text x="550" y="338" text-anchor="middle" font-size="22" font-weight="700" fill="#fff">2</text>
+<circle cx="550" cy="410" r="27" fill="#ea7a1a" stroke="#ea7a1a" stroke-width="3"/><circle cx="550" cy="410" r="27" fill="none" stroke="#fff" stroke-opacity=".35" stroke-width="1"/>
+<text x="550" y="418" text-anchor="middle" font-size="22" font-weight="700" fill="#fff">3</text>
+<circle cx="550" cy="490" r="27" fill="#eab308" stroke="#eab308" stroke-width="3"/><circle cx="550" cy="490" r="27" fill="none" stroke="#fff" stroke-opacity=".35" stroke-width="1"/>
+<text x="550" y="498" text-anchor="middle" font-size="22" font-weight="700" fill="#fff">4</text>
+<circle cx="650" cy="290" r="27" fill="#f3ecd0" stroke="#c8bd8a" stroke-width="3"/><circle cx="650" cy="290" r="27" fill="none" stroke="#fff" stroke-opacity=".35" stroke-width="1"/>
+<text x="650" y="298" text-anchor="middle" font-size="22" font-weight="700" fill="#6b5f2a">5</text>
+<circle cx="650" cy="370" r="27" fill="#1e4e8c" stroke="#1e4e8c" stroke-width="3"/><circle cx="650" cy="370" r="27" fill="none" stroke="#fff" stroke-opacity=".35" stroke-width="1"/>
+<text x="650" y="378" text-anchor="middle" font-size="22" font-weight="700" fill="#fff">6</text>
+<circle cx="650" cy="450" r="27" fill="#8b3f78" stroke="#8b3f78" stroke-width="3"/><circle cx="650" cy="450" r="27" fill="none" stroke="#fff" stroke-opacity=".35" stroke-width="1"/>
+<text x="650" y="458" text-anchor="middle" font-size="22" font-weight="700" fill="#fff">7</text>
+<text x="600.0" y="724" text-anchor="middle" font-size="16" fill="#6b7280">Front view of the connector. Pin numbers inside the circles; wire colors as in the original photo.</text>
+</g></svg>

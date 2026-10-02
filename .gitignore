@@ -1,0 +1,13 @@
+# macOS
+.DS_Store
+._*
+
+# Editores e temporários
+*.swp
+*~
+.vscode/
+.idea/
+
+# Fotos originais em alta resolução (usar as versões otimizadas em docs/img)
+*.heic
+*.HEIC

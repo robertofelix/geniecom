@@ -1,0 +1,204 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1640" height="1445" viewBox="0 0 1640 1445">
+<g font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif"><rect width="1640" height="1445" fill="#fff"/>
+<rect x="30" y="30" width="770" height="900" rx="18" fill="#fff" stroke="#e5e7eb" stroke-width="2"/>
+<rect x="830" y="30" width="780" height="900" rx="18" fill="#fff" stroke="#e5e7eb" stroke-width="2"/>
+<rect x="30" y="960" width="1580" height="455" rx="18" fill="#fff" stroke="#e5e7eb" stroke-width="2"/>
+<text x="415" y="86" text-anchor="middle" font-size="26" font-weight="700" fill="#111827">Famicom (DB15) facing console</text>
+<text x="1220" y="86" text-anchor="middle" font-size="26" font-weight="700" fill="#111827">Geniecom (DB15) facing console</text>
+<path d="M92.0,470 L508.0,470 Q516.0,470 514.0,478 L492.0,582 Q490.0,590 482.0,590 L118.0,590 Q110.0,590 108.0,582 L86.0,478 Q84.0,470 92.0,470 Z" fill="#f3f4f6" stroke="#6b7280" stroke-width="3" stroke-linejoin="round"/>
+<path d="M139.0,504 L139.0,178 L550,178" fill="none" stroke="#374151" stroke-width="3" stroke-linejoin="round"/>
+<path d="M548,172 L558,178 L548,184 Z" fill="#374151"/>
+<text x="566" y="185" font-size="20" font-weight="600" fill="#374151">Ground</text>
+<path d="M185.0,504 L185.0,216 L550,216" fill="none" stroke="#d97706" stroke-width="3" stroke-linejoin="round"/>
+<path d="M548,210 L558,216 L548,222 Z" fill="#d97706"/>
+<text x="566" y="223" font-size="20" font-weight="600" fill="#d97706">Sound</text>
+<path d="M231.0,504 L231.0,254 L550,254" fill="none" stroke="#0d9488" stroke-width="3" stroke-linejoin="round"/>
+<path d="M548,248 L558,254 L548,260 Z" fill="#0d9488"/>
+<text x="566" y="261" font-size="20" font-weight="600" fill="#0d9488">IRQ!</text>
+<path d="M277.0,504 L277.0,292 L550,292" fill="none" stroke="#2563eb" stroke-width="3" stroke-linejoin="round"/>
+<path d="M548,286 L558,292 L548,298 Z" fill="#2563eb"/>
+<text x="566" y="299" font-size="20" font-weight="600" fill="#2563eb">P2 D4</text>
+<path d="M323.0,504 L323.0,330 L550,330" fill="none" stroke="#2563eb" stroke-width="3" stroke-linejoin="round"/>
+<path d="M548,324 L558,330 L548,336 Z" fill="#2563eb"/>
+<text x="566" y="337" font-size="20" font-weight="600" fill="#2563eb">P2 D3</text>
+<path d="M369.0,504 L369.0,368 L550,368" fill="none" stroke="#2563eb" stroke-width="3" stroke-linejoin="round"/>
+<path d="M548,362 L558,368 L548,374 Z" fill="#2563eb"/>
+<text x="566" y="375" font-size="20" font-weight="600" fill="#2563eb">P2 D2</text>
+<path d="M415.0,504 L415.0,406 L550,406" fill="none" stroke="#2563eb" stroke-width="3" stroke-linejoin="round"/>
+<path d="M548,400 L558,406 L548,412 Z" fill="#2563eb"/>
+<text x="566" y="413" font-size="20" font-weight="600" fill="#2563eb">P2 D1</text>
+<path d="M461.0,504 L461.0,444 L550,444" fill="none" stroke="#2563eb" stroke-width="3" stroke-linejoin="round"/>
+<path d="M548,438 L558,444 L548,450 Z" fill="#2563eb"/>
+<text x="566" y="451" font-size="20" font-weight="600" fill="#2563eb">P2 D0</text>
+<circle cx="139.0" cy="504" r="15" fill="#374151"/><text x="139.0" y="510" text-anchor="middle" font-size="16" font-weight="700" fill="#fff">1</text>
+<circle cx="185.0" cy="504" r="15" fill="#d97706"/><text x="185.0" y="510" text-anchor="middle" font-size="16" font-weight="700" fill="#fff">2</text>
+<circle cx="231.0" cy="504" r="15" fill="#0d9488"/><text x="231.0" y="510" text-anchor="middle" font-size="16" font-weight="700" fill="#fff">3</text>
+<circle cx="277.0" cy="504" r="15" fill="#2563eb"/><text x="277.0" y="510" text-anchor="middle" font-size="16" font-weight="700" fill="#fff">4</text>
+<circle cx="323.0" cy="504" r="15" fill="#2563eb"/><text x="323.0" y="510" text-anchor="middle" font-size="16" font-weight="700" fill="#fff">5</text>
+<circle cx="369.0" cy="504" r="15" fill="#2563eb"/><text x="369.0" y="510" text-anchor="middle" font-size="16" font-weight="700" fill="#fff">6</text>
+<circle cx="415.0" cy="504" r="15" fill="#2563eb"/><text x="415.0" y="510" text-anchor="middle" font-size="16" font-weight="700" fill="#fff">7</text>
+<circle cx="461.0" cy="504" r="15" fill="#2563eb"/><text x="461.0" y="510" text-anchor="middle" font-size="16" font-weight="700" fill="#fff">8</text>
+<path d="M162.0,560 L162.0,852 L550,852" fill="none" stroke="#16a34a" stroke-width="3" stroke-linejoin="round"/>
+<path d="M548,846 L558,852 L548,858 Z" fill="#16a34a"/>
+<text x="566" y="859" font-size="20" font-weight="600" fill="#16a34a">P2 Clock</text>
+<path d="M208.0,560 L208.0,814 L550,814" fill="none" stroke="#db2777" stroke-width="3" stroke-linejoin="round"/>
+<path d="M548,808 L558,814 L548,820 Z" fill="#db2777"/>
+<text x="566" y="821" font-size="20" font-weight="600" fill="#db2777">OUT2</text>
+<path d="M254.0,560 L254.0,776 L550,776" fill="none" stroke="#db2777" stroke-width="3" stroke-linejoin="round"/>
+<path d="M548,770 L558,776 L548,782 Z" fill="#db2777"/>
+<text x="566" y="783" font-size="20" font-weight="600" fill="#db2777">OUT1</text>
+<path d="M300.0,560 L300.0,738 L550,738" fill="none" stroke="#7c3aed" stroke-width="3" stroke-linejoin="round"/>
+<path d="M548,732 L558,738 L548,744 Z" fill="#7c3aed"/>
+<text x="566" y="745" font-size="20" font-weight="600" fill="#7c3aed">Latch or Strobe</text>
+<path d="M346.0,560 L346.0,700 L550,700" fill="none" stroke="#2563eb" stroke-width="3" stroke-linejoin="round"/>
+<path d="M548,694 L558,700 L548,706 Z" fill="#2563eb"/>
+<text x="566" y="707" font-size="20" font-weight="600" fill="#2563eb">P1 D1</text>
+<path d="M392.0,560 L392.0,662 L550,662" fill="none" stroke="#16a34a" stroke-width="3" stroke-linejoin="round"/>
+<path d="M548,656 L558,662 L548,668 Z" fill="#16a34a"/>
+<text x="566" y="669" font-size="20" font-weight="600" fill="#16a34a">P1 Clock</text>
+<path d="M438.0,560 L438.0,624 L550,624" fill="none" stroke="#dc2626" stroke-width="3" stroke-linejoin="round"/>
+<path d="M548,618 L558,624 L548,630 Z" fill="#dc2626"/>
+<text x="566" y="631" font-size="20" font-weight="600" fill="#dc2626">Power or VCC +5V</text>
+<circle cx="162.0" cy="560" r="15" fill="#16a34a"/><text x="162.0" y="566" text-anchor="middle" font-size="16" font-weight="700" fill="#fff">9</text>
+<circle cx="208.0" cy="560" r="15" fill="#db2777"/><text x="208.0" y="566" text-anchor="middle" font-size="16" font-weight="700" fill="#fff">10</text>
+<circle cx="254.0" cy="560" r="15" fill="#db2777"/><text x="254.0" y="566" text-anchor="middle" font-size="16" font-weight="700" fill="#fff">11</text>
+<circle cx="300.0" cy="560" r="15" fill="#7c3aed"/><text x="300.0" y="566" text-anchor="middle" font-size="16" font-weight="700" fill="#fff">12</text>
+<circle cx="346.0" cy="560" r="15" fill="#2563eb"/><text x="346.0" y="566" text-anchor="middle" font-size="16" font-weight="700" fill="#fff">13</text>
+<circle cx="392.0" cy="560" r="15" fill="#16a34a"/><text x="392.0" y="566" text-anchor="middle" font-size="16" font-weight="700" fill="#fff">14</text>
+<circle cx="438.0" cy="560" r="15" fill="#dc2626"/><text x="438.0" y="566" text-anchor="middle" font-size="16" font-weight="700" fill="#fff">15</text>
+<path d="M892.0,470 L1308.0,470 Q1316.0,470 1314.0,478 L1292.0,582 Q1290.0,590 1282.0,590 L918.0,590 Q910.0,590 908.0,582 L886.0,478 Q884.0,470 892.0,470 Z" fill="#f3f4f6" stroke="#6b7280" stroke-width="3" stroke-linejoin="round"/>
+<path d="M939.0,504 L939.0,178 L1350,178" fill="none" stroke="#374151" stroke-width="3" stroke-linejoin="round"/>
+<path d="M1348,172 L1358,178 L1348,184 Z" fill="#374151"/>
+<text x="1366" y="185" font-size="20" font-weight="600" fill="#374151">Ground</text>
+<path d="M985.0,504 L985.0,216 L1350,216" fill="none" stroke="#d97706" stroke-width="3" stroke-linejoin="round"/>
+<path d="M1348,210 L1358,216 L1348,222 Z" fill="#d97706"/>
+<text x="1366" y="223" font-size="20" font-weight="600" fill="#d97706">Sound</text>
+<path d="M1031.0,504 L1031.0,254 L1350,254" fill="none" stroke="#0d9488" stroke-width="3" stroke-linejoin="round"/>
+<path d="M1348,248 L1358,254 L1348,260 Z" fill="#0d9488"/>
+<text x="1366" y="261" font-size="20" font-weight="600" fill="#0d9488">IRQ!</text>
+<path d="M1077.0,504 L1077.0,292 L1350,292" fill="none" stroke="#2563eb" stroke-width="3" stroke-linejoin="round"/>
+<path d="M1348,286 L1358,292 L1348,298 Z" fill="#2563eb"/>
+<text x="1366" y="299" font-size="20" font-weight="600" fill="#2563eb">P2 D4</text>
+<path d="M1123.0,504 L1123.0,330 L1350,330" fill="none" stroke="#2563eb" stroke-width="3" stroke-linejoin="round"/>
+<path d="M1348,324 L1358,330 L1348,336 Z" fill="#2563eb"/>
+<text x="1366" y="337" font-size="20" font-weight="600" fill="#2563eb">P2 D3</text>
+<path d="M1169.0,504 L1169.0,368 L1350,368" fill="none" stroke="#2563eb" stroke-width="3" stroke-linejoin="round"/>
+<path d="M1348,362 L1358,368 L1348,374 Z" fill="#2563eb"/>
+<text x="1366" y="375" font-size="20" font-weight="600" fill="#2563eb">P2 D2</text>
+<path d="M1215.0,504 L1215.0,406 L1350,406" fill="none" stroke="#2563eb" stroke-width="3" stroke-linejoin="round"/>
+<path d="M1348,400 L1358,406 L1348,412 Z" fill="#2563eb"/>
+<text x="1366" y="413" font-size="20" font-weight="600" fill="#2563eb">P2 D1</text>
+<path d="M1261.0,504 L1261.0,444 L1350,444" fill="none" stroke="#2563eb" stroke-width="3" stroke-linejoin="round"/>
+<path d="M1348,438 L1358,444 L1348,450 Z" fill="#2563eb"/>
+<text x="1366" y="451" font-size="20" font-weight="600" fill="#2563eb">P2 D0</text>
+<circle cx="939.0" cy="504" r="15" fill="#374151"/><text x="939.0" y="510" text-anchor="middle" font-size="16" font-weight="700" fill="#fff">1</text>
+<circle cx="985.0" cy="504" r="15" fill="#d97706"/><text x="985.0" y="510" text-anchor="middle" font-size="16" font-weight="700" fill="#fff">2</text>
+<circle cx="1031.0" cy="504" r="15" fill="#0d9488"/><text x="1031.0" y="510" text-anchor="middle" font-size="16" font-weight="700" fill="#fff">3</text>
+<circle cx="1077.0" cy="504" r="15" fill="#2563eb"/><text x="1077.0" y="510" text-anchor="middle" font-size="16" font-weight="700" fill="#fff">4</text>
+<circle cx="1123.0" cy="504" r="15" fill="#2563eb"/><text x="1123.0" y="510" text-anchor="middle" font-size="16" font-weight="700" fill="#fff">5</text>
+<circle cx="1169.0" cy="504" r="15" fill="#2563eb"/><text x="1169.0" y="510" text-anchor="middle" font-size="16" font-weight="700" fill="#fff">6</text>
+<circle cx="1215.0" cy="504" r="15" fill="#2563eb"/><text x="1215.0" y="510" text-anchor="middle" font-size="16" font-weight="700" fill="#fff">7</text>
+<circle cx="1261.0" cy="504" r="15" fill="#2563eb"/><text x="1261.0" y="510" text-anchor="middle" font-size="16" font-weight="700" fill="#fff">8</text>
+<path d="M962.0,560 L962.0,852 L1350,852" fill="none" stroke="#16a34a" stroke-width="3" stroke-linejoin="round"/>
+<path d="M1348,846 L1358,852 L1348,858 Z" fill="#16a34a"/>
+<text x="1366" y="859" font-size="20" font-weight="600" fill="#16a34a">P2 Clock</text>
+<path d="M1008.0,560 L1008.0,814 L1350,814" fill="none" stroke="#db2777" stroke-width="3" stroke-linejoin="round"/>
+<path d="M1348,808 L1358,814 L1348,820 Z" fill="#db2777"/>
+<text x="1366" y="821" font-size="20" font-weight="600" fill="#db2777">OUT2</text>
+<path d="M1054.0,560 L1054.0,776 L1350,776" fill="none" stroke="#db2777" stroke-width="3" stroke-linejoin="round"/>
+<path d="M1348,770 L1358,776 L1348,782 Z" fill="#db2777"/>
+<text x="1366" y="783" font-size="20" font-weight="600" fill="#db2777">OUT1</text>
+<path d="M1100.0,560 L1100.0,738 L1350,738" fill="none" stroke="#7c3aed" stroke-width="3" stroke-linejoin="round"/>
+<path d="M1348,732 L1358,738 L1348,744 Z" fill="#7c3aed"/>
+<text x="1366" y="745" font-size="20" font-weight="600" fill="#7c3aed">Latch or Strobe</text>
+<path d="M1146.0,560 L1146.0,700 L1350,700" fill="none" stroke="#2563eb" stroke-width="3" stroke-linejoin="round"/>
+<path d="M1348,694 L1358,700 L1348,706 Z" fill="#2563eb"/>
+<text x="1366" y="707" font-size="20" font-weight="600" fill="#2563eb">P1 D1</text>
+<path d="M1192.0,560 L1192.0,662 L1350,662" fill="none" stroke="#16a34a" stroke-width="3" stroke-linejoin="round"/>
+<path d="M1348,656 L1358,662 L1348,668 Z" fill="#16a34a"/>
+<text x="1366" y="669" font-size="20" font-weight="600" fill="#16a34a">P1 Clock</text>
+<path d="M1238.0,560 L1238.0,624 L1350,624" fill="none" stroke="#dc2626" stroke-width="3" stroke-linejoin="round"/>
+<path d="M1348,618 L1358,624 L1348,630 Z" fill="#dc2626"/>
+<text x="1366" y="631" font-size="20" font-weight="600" fill="#dc2626">Power or VCC +5V</text>
+<circle cx="962.0" cy="560" r="15" fill="#16a34a"/><text x="962.0" y="566" text-anchor="middle" font-size="16" font-weight="700" fill="#fff">9</text>
+<circle cx="1008.0" cy="560" r="15" fill="#db2777"/><text x="1008.0" y="566" text-anchor="middle" font-size="16" font-weight="700" fill="#fff">10</text>
+<circle cx="1054.0" cy="560" r="15" fill="#db2777"/><text x="1054.0" y="566" text-anchor="middle" font-size="16" font-weight="700" fill="#fff">11</text>
+<circle cx="1100.0" cy="560" r="15" fill="#7c3aed"/><text x="1100.0" y="566" text-anchor="middle" font-size="16" font-weight="700" fill="#fff">12</text>
+<circle cx="1146.0" cy="560" r="15" fill="#2563eb"/><text x="1146.0" y="566" text-anchor="middle" font-size="16" font-weight="700" fill="#fff">13</text>
+<circle cx="1192.0" cy="560" r="15" fill="#16a34a"/><text x="1192.0" y="566" text-anchor="middle" font-size="16" font-weight="700" fill="#fff">14</text>
+<circle cx="1238.0" cy="560" r="15" fill="#dc2626"/><text x="1238.0" y="566" text-anchor="middle" font-size="16" font-weight="700" fill="#fff">15</text>
+<text x="800" y="1008" text-anchor="middle" font-size="22" font-weight="700" fill="#111827">Reference pinouts</text>
+<text x="287" y="1056" text-anchor="middle" font-size="19" font-weight="600" fill="#374151">TwinHead PC-100 15-pin port</text>
+<text x="800" y="1056" text-anchor="middle" font-size="19" font-weight="600" fill="#374151">NES controller port 1</text>
+<text x="1313" y="1056" text-anchor="middle" font-size="19" font-weight="600" fill="#374151">NES controller port 2</text>
+<path d="M543,1030 L543,1395" stroke="#e5e7eb" stroke-width="2"/>
+<path d="M1056,1030 L1056,1395" stroke="#e5e7eb" stroke-width="2"/>
+<path d="M111.0,1095 L463.0,1095 Q471.0,1095 469.0,1103 L447.0,1187 Q445.0,1195 437.0,1195 L137.0,1195 Q129.0,1195 127.0,1187 L105.0,1103 Q103.0,1095 111.0,1095 Z" fill="#f3f4f6" stroke="#6b7280" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="154.0" cy="1129" r="13" fill="#111827"/>
+<text x="154.0" y="1134" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">1</text>
+<circle cx="192.0" cy="1129" r="13" fill="#fff" stroke="#9ca3af" stroke-width="2"/>
+<text x="192.0" y="1134" text-anchor="middle" font-size="12" font-weight="600" fill="#9ca3af">2</text>
+<circle cx="230.0" cy="1129" r="13" fill="#fff" stroke="#9ca3af" stroke-width="2"/>
+<text x="230.0" y="1134" text-anchor="middle" font-size="12" font-weight="600" fill="#9ca3af">3</text>
+<circle cx="268.0" cy="1129" r="13" fill="#7a6a00"/>
+<text x="268.0" y="1134" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">4</text>
+<circle cx="306.0" cy="1129" r="13" fill="#f97316"/>
+<text x="306.0" y="1134" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">5</text>
+<circle cx="344.0" cy="1129" r="13" fill="#fff" stroke="#9ca3af" stroke-width="2"/>
+<text x="344.0" y="1134" text-anchor="middle" font-size="12" font-weight="600" fill="#9ca3af">6</text>
+<circle cx="382.0" cy="1129" r="13" fill="#7c3aed"/>
+<text x="382.0" y="1134" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">7</text>
+<circle cx="420.0" cy="1129" r="13" fill="#fff" stroke="#9ca3af" stroke-width="2"/>
+<text x="420.0" y="1134" text-anchor="middle" font-size="12" font-weight="600" fill="#9ca3af">8</text>
+<circle cx="173" cy="1165" r="13" fill="#06b6d4"/>
+<text x="173" y="1170" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">9</text>
+<circle cx="211" cy="1165" r="13" fill="#fff" stroke="#9ca3af" stroke-width="2"/>
+<text x="211" y="1170" text-anchor="middle" font-size="12" font-weight="600" fill="#9ca3af">10</text>
+<circle cx="249" cy="1165" r="13" fill="#fff" stroke="#9ca3af" stroke-width="2"/>
+<text x="249" y="1170" text-anchor="middle" font-size="12" font-weight="600" fill="#9ca3af">11</text>
+<circle cx="287" cy="1165" r="13" fill="#16a34a"/>
+<text x="287" y="1170" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">12</text>
+<circle cx="325" cy="1165" r="13" fill="#db2777"/>
+<text x="325" y="1170" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">13</text>
+<circle cx="363" cy="1165" r="13" fill="#2563eb"/>
+<text x="363" y="1170" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">14</text>
+<circle cx="401" cy="1165" r="13" fill="#dc2626"/>
+<text x="401" y="1170" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">15</text>
+<text x="137" y="1245" font-size="18" fill="#374151">1) Ground</text>
+<text x="137" y="1275" font-size="18" fill="#374151">4) P2 D4</text>
+<text x="137" y="1305" font-size="18" fill="#374151">5) P2 D3</text>
+<text x="137" y="1335" font-size="18" fill="#374151">7) P2 Data</text>
+<text x="137" y="1365" font-size="18" fill="#374151">9) P2 Clock</text>
+<text x="307" y="1245" font-size="18" fill="#374151">12) Latch or Strobe</text>
+<text x="307" y="1275" font-size="18" fill="#374151">13) P1 Data</text>
+<text x="307" y="1305" font-size="18" fill="#374151">14) P1 Clock</text>
+<text x="307" y="1335" font-size="18" fill="#374151">15) Power or VCC +5V</text>
+<path d="M756,1090 L804,1090 L838,1124 L838,1226 Q838,1240 824,1240 L756,1240 Q742,1240 742,1226 L742,1104 Q742,1090 756,1090 Z" fill="#f3f4f6" stroke="#6b7280" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="770" cy="1126" r="11" fill="#111827"/>
+<text x="730" y="1132" text-anchor="end" font-size="17" fill="#374151">Ground</text>
+<circle cx="770" cy="1160" r="11" fill="#2563eb"/>
+<text x="730" y="1166" text-anchor="end" font-size="17" fill="#374151">P1 Clock</text>
+<circle cx="770" cy="1194" r="11" fill="#16a34a"/>
+<text x="730" y="1200" text-anchor="end" font-size="17" fill="#374151">Latch or Strobe</text>
+<circle cx="770" cy="1228" r="11" fill="#db2777"/>
+<text x="730" y="1234" text-anchor="end" font-size="17" fill="#374151">P1 Data</text>
+<circle cx="808" cy="1143" r="11" fill="#dc2626"/>
+<text x="852" y="1149" font-size="17" fill="#374151">Power or VCC +5V</text>
+<circle cx="808" cy="1177" r="11" fill="#fff" stroke="#9ca3af" stroke-width="2"/>
+<circle cx="808" cy="1211" r="11" fill="#fff" stroke="#9ca3af" stroke-width="2"/>
+<path d="M1269,1090 L1317,1090 L1351,1124 L1351,1226 Q1351,1240 1337,1240 L1269,1240 Q1255,1240 1255,1226 L1255,1104 Q1255,1090 1269,1090 Z" fill="#f3f4f6" stroke="#6b7280" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="1283" cy="1126" r="11" fill="#111827"/>
+<text x="1243" y="1132" text-anchor="end" font-size="17" fill="#374151">Ground</text>
+<circle cx="1283" cy="1160" r="11" fill="#06b6d4"/>
+<text x="1243" y="1166" text-anchor="end" font-size="17" fill="#374151">P2 Clock</text>
+<circle cx="1283" cy="1194" r="11" fill="#16a34a"/>
+<text x="1243" y="1200" text-anchor="end" font-size="17" fill="#374151">Latch or Strobe</text>
+<circle cx="1283" cy="1228" r="11" fill="#7c3aed"/>
+<text x="1243" y="1234" text-anchor="end" font-size="17" fill="#374151">P2 Data</text>
+<circle cx="1321" cy="1143" r="11" fill="#dc2626"/>
+<text x="1365" y="1149" font-size="17" fill="#374151">Power or VCC +5V</text>
+<circle cx="1321" cy="1177" r="11" fill="#f97316"/>
+<text x="1365" y="1183" font-size="17" fill="#374151">P2 D3</text>
+<circle cx="1321" cy="1211" r="11" fill="#7a6a00"/>
+<text x="1365" y="1217" font-size="17" fill="#374151">P2 D4</text>
+</g></svg>
