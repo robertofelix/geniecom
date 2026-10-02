@@ -12,7 +12,7 @@ Documentação da pinagem do controle do Geniecom, um Famiclone vendido no Brasi
 - [Montando o adaptador](#montando-o-adaptador)
 - [PCB (Gerber)](#pcb-gerber)
 - [Bônus: outros clones](#bônus-outros-clones)
-  - [Phantom System](#phantom-system)
+  - [Phantom System, Top Game e Turbo Game](#phantom-system)
 - [Estrutura do repositório](#estrutura-do-repositório)
 - [Créditos](#créditos)
 - [Licença](#licença)
@@ -164,7 +164,7 @@ Os arquivos estão disponíveis para quem quiser usar ou modificar:
 | [hardware/easyeda/geniecom_pcb.json](hardware/easyeda/geniecom_pcb.json) | Layout da PCB, arquivo-fonte editável (importe no EasyEDA) |
 | [hardware/easyeda/geniecom_sch.json](hardware/easyeda/geniecom_sch.json) | Esquemático, arquivo-fonte editável (importe no EasyEDA) |
 | [hardware/easyeda/geniecom_pcb.pdf](hardware/easyeda/geniecom_pcb.pdf) | Visualização do layout |
-| [hardware/bom.csv](hardware/bom.csv) | Lista de materiais (BOM) |
+| [hardware/bom_geniecom.csv](hardware/bom_geniecom.csv) | Lista de materiais (BOM) |
 
 Façam bom proveito!
 
@@ -213,19 +213,23 @@ Ao contrário do Geniecom, a pinagem do conector DB9 do Phantom System segue exa
 | Power or VCC +5V | 5 | 5 |
 | Sem função (terra da blindagem do conector) | 6, 7, 8 e 9 | Não usado |
 
-Fonte: esquemático abaixo, conferido no layout da PCB (arquivos na seção seguinte). Essa correlação é a mesma já registrada na tabela "Turbo Game / Phantom System / TCP-3" da imagem de pinagem dos outros clones, acima.
+Fonte: o esquemático abaixo, confirmado também no layout da PCB (arquivos na seção seguinte). Essa correlação é a mesma já registrada na tabela "Turbo Game / Phantom System / TCP-3" da imagem de pinagem dos outros clones, acima.
 
 ![Esquemático do adaptador NES para Phantom System: conector DB9-RIGHT-ANGLE FEMALE com os pinos 1 a 5 ligados diretamente aos pinos 1 a 5 do conector NES de 7 pinos; os pinos 6 a 9 do DB9 vão só para GND](docs/img/png/phantom_sch.png)
 
-#### PCB (Gerber) — Phantom System
+O Top Game e o Turbo Game, outros dois famiclones vendidos no Brasil, seguem o mesmo esquemático e a mesma pinagem do Phantom System. Por isso, o mesmo esquemático, a mesma PCB e o mesmo adaptador descritos abaixo servem para os três consoles.
 
-No mesmo projeto do EasyEDA, montei uma segunda PCB com a pinagem do Phantom System, no mesmo padrão da PCB do Geniecom.
+#### PCB (Gerber) do Phantom System, Top Game e Turbo Game
+
+No mesmo projeto do EasyEDA, montei uma segunda PCB com a pinagem do Phantom System (compatível também com o Top Game e o Turbo Game), no mesmo padrão da PCB do Geniecom.
 
 | Arquivo | Descrição |
 | --- | --- |
 | [hardware/gerber_phantom.zip](hardware/gerber_phantom.zip) | Gerber, pronto para enviar à fábrica de PCB |
 | [hardware/easyeda/phantom_pcb.json](hardware/easyeda/phantom_pcb.json) | Layout da PCB, arquivo-fonte editável (importe no EasyEDA) |
-| [docs/img/svg/phantom_sch.svg](docs/img/svg/phantom_sch.svg) | Esquemático, exportado do EasyEDA (o arquivo-fonte editável do esquemático não foi incluído) |
+| [hardware/easyeda/phantom_sch.json](hardware/easyeda/phantom_sch.json) | Esquemático, arquivo-fonte editável (importe no EasyEDA) |
+| [hardware/easyeda/phantom_pcb.pdf](hardware/easyeda/phantom_pcb.pdf) | Visualização do layout |
+| [docs/img/svg/phantom_sch.svg](docs/img/svg/phantom_sch.svg) | Visualização do esquemático |
 | [hardware/bom_phantom.csv](hardware/bom_phantom.csv) | Lista de materiais (BOM) |
 
 ![Layout da PCB do adaptador NES para Phantom System no EasyEDA, mostrando o conector NES de 7 pinos à esquerda ligado ao conector DB9 do Phantom System à direita](docs/img/png/phantom_pcb_layout.png)
@@ -252,17 +256,19 @@ Esta PCB ainda não foi fabricada ou montada; os arquivos acima estão prontos p
 │       ├── jpg/               # Fotos do adaptador e da PCB montada
 │       ├── png/               # Diagramas de pinagem e ligação (usados no README)
 │       └── svg/               # Fontes vetoriais (editáveis) dos diagramas
-│           └── phantom_sch.svg    # Esquemático do adaptador Phantom System (exportado do EasyEDA)
+│           └── phantom_sch.svg    # Visualização do esquemático do Phantom System (exportado do EasyEDA)
 └── hardware/
     ├── gerber_geniecom.zip    # Arquivos Gerber da PCB do Geniecom
     ├── gerber_phantom.zip     # Arquivos Gerber da PCB do Phantom System
-    ├── bom.csv                # Lista de materiais do Geniecom
+    ├── bom_geniecom.csv       # Lista de materiais do Geniecom
     ├── bom_phantom.csv        # Lista de materiais do Phantom System
     └── easyeda/
         ├── geniecom_sch.json  # Esquemático do Geniecom (EasyEDA)
         ├── geniecom_pcb.json  # Layout da PCB do Geniecom (EasyEDA)
         ├── geniecom_pcb.pdf   # Visualização do layout do Geniecom
-        └── phantom_pcb.json   # Layout da PCB do Phantom System (EasyEDA)
+        ├── phantom_sch.json   # Esquemático do Phantom System (EasyEDA)
+        ├── phantom_pcb.json   # Layout da PCB do Phantom System (EasyEDA)
+        └── phantom_pcb.pdf    # Visualização do layout do Phantom System
 ```
 
 ## Créditos
