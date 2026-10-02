@@ -72,7 +72,7 @@ Ligação entre a porta DB15 no padrão Famicom (exemplo: TwinHead PC-100) e as 
 
 Para ligar um controle de NES ao Geniecom, cada função do DB9 do Geniecom vai para o pino de mesma função no conector do NES. Os números do DB9 abaixo são os pinos físicos do conector, como nos diagramas de pinagem acima.
 
-| Função | Pino do DB9 (Geniecom) | Pino do NES |
+| Função | Pino DB9 (Geniecom) | Pino NES |
 | --- | --- | --- |
 | Ground | 1 | 1 |
 | Sound | 2 | Não usado (o NES não tem essa função) |
@@ -94,11 +94,32 @@ Os conectores DB9/DE9 machos do Geniecom são muito longos. Por isso, o conector
 - [Cabo extensor para controle de NES](https://www.aliexpress.com/item/4000029468234.html)
 - [Anel de ferrite para cabo, 5 mm](https://www.aliexpress.com/item/1005006071819843.html)
 
-Cortei os cabos dos dois extensores e mapeei cada pino do DB9 do cabo do Mega Drive para a função correspondente no Geniecom, e cada pino do cabo do NES para a sua função. As cores variam conforme o fabricante do cabo, então confirme com um multímetro antes de soldar.
+Cortei os cabos dos dois extensores e liguei entre si os fios de mesma função. O Mega Drive e o NES são usados só como fonte de conector e fio: o que importa é a função que cada fio assume no Geniecom e no NES.
 
-### Cabo do Mega Drive (DB9, funções do Geniecom)
+### Mapa de ligação
 
-| Pino | Cor do fio | Função |
+Cada linha do diagrama é uma função. Leia da esquerda para a direita: o pino do DB9 (lado Geniecom), a cor do fio correspondente no cabo do Mega Drive, a função, a cor do fio do cabo do NES que deve ser emendado a ele e o pino do NES. A cor da linha identifica a função, e as cores dos fios são as dos cabos que usei.
+
+![Diagrama de ligação do adaptador: Ground, pino 1 do DB9 (fio vermelho do Mega Drive) ao pino 1 do NES (fio branco); Clock, pino 6 (verde) ao pino 2 (verde); Latch or Strobe, pino 3 (cinza) ao pino 3 (amarelo); Data, pino 5 (marrom) ao pino 4 (preto); Power or VCC +5V, pino 9 (amarelo) ao pino 5 (vermelho); Sound, pino 2 (preto), não ligado; pinos 4, 7 e 8 do DB9 e 6 e 7 do NES sem uso](docs/img/adaptador_ligacao.png)
+
+| Função | Cor do fio (Mega Drive) | Cor do fio (NES) |
+| --- | --- | --- |
+| Ground | Vermelho | Branco |
+| Clock | Verde | Verde |
+| Latch or Strobe | Cinza | Amarelo |
+| Data | Marrom | Preto |
+| Power or VCC +5V | Amarelo | Vermelho |
+| Sound | Preto | Não ligado |
+| Sem função | Laranja, Branco e Azul (isolar) | Não usado |
+
+Os números dos pinos estão no diagrama e na tabela de [correlação](#correlação-geniecom--nes). Se os seus cabos tiverem outras cores, descubra com o multímetro qual fio sai de cada pino e emende pela função: as funções e os pinos valem para qualquer cabo, as cores não.
+
+<details>
+<summary>Cores de cada cabo, pino a pino (para conferir com o multímetro)</summary>
+
+**Cabo do Mega Drive (DB9, funções do Geniecom)**
+
+| Pino DB9 (Geniecom) | Cor do fio (Mega Drive) | Função |
 | --- | --- | --- |
 | 01 | Vermelho | Ground |
 | 02 | Preto | Sound |
@@ -110,9 +131,9 @@ Cortei os cabos dos dois extensores e mapeei cada pino do DB9 do cabo do Mega Dr
 | 08 | Azul | Não usado |
 | 09 | Amarelo | Power or VCC +5V |
 
-### Cabo do NES (conector de 7 pinos)
+**Cabo do NES (conector de 7 pinos)**
 
-| Pino | Cor do fio | Função |
+| Pino NES | Cor do fio (NES) | Função |
 | --- | --- | --- |
 | 01 | Branco | Ground |
 | 02 | Verde | Clock |
@@ -122,18 +143,7 @@ Cortei os cabos dos dois extensores e mapeei cada pino do DB9 do cabo do Mega Dr
 | 06 | Não usado | Não usado |
 | 07 | Não usado | Não usado |
 
-### Emenda dos fios
-
-Os fios de mesma função dos dois cabos são ligados entre si. Com as cores dos cabos que usei:
-
-| Função | Fio do Mega Drive | Fio do NES |
-| --- | --- | --- |
-| Ground | Vermelho | Branco |
-| Clock | Verde | Verde |
-| Latch or Strobe | Cinza | Amarelo |
-| Data | Marrom | Preto |
-| Power or VCC +5V | Amarelo | Vermelho |
-| Sound | Preto | Não ligado |
+</details>
 
 ### Resultado final
 
