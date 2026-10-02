@@ -38,29 +38,29 @@ Para saber mais sobre o console, veja [este artigo no Bojoga](https://bojoga.com
 
 Perspectiva de quem olha o conector pelo lado do controle: o pino 5 fica à esquerda e o pino 1 à direita.
 
-![Pinagem do Geniecom em DB9 e DB15, vista pelo lado do controle: no DB9, pino 1 Ground, 2 Sound, 3 Latch or Strobe, 5 Data, 6 Clock e 9 Power or VCC +5V; pinos 4, 7 e 8 não conectados](docs/img/geniecom_gamepad_facing.png)
+![Pinagem do Geniecom em DB9 e DB15, vista pelo lado do controle: no DB9, pino 1 Ground, 2 Sound, 3 Latch or Strobe, 5 Data, 6 Clock e 9 Power or VCC +5V; pinos 4, 7 e 8 não conectados](docs/img/png/geniecom_gamepad_facing.png)
 
 ### Geniecom, visto pelo lado do console
 
 Perspectiva de quem olha o conector do console de frente: o pino 1 fica à esquerda e o pino 5 à direita.
 
-![Pinagem do Geniecom em DB9 e DB15, vista pelo lado do console: no DB9, pino 1 Ground, 2 Sound, 3 Latch or Strobe, 5 Data, 6 Clock e 9 Power or VCC +5V; pinos 4, 7 e 8 não conectados](docs/img/geniecom_console_facing.png)
+![Pinagem do Geniecom em DB9 e DB15, vista pelo lado do console: no DB9, pino 1 Ground, 2 Sound, 3 Latch or Strobe, 5 Data, 6 Clock e 9 Power or VCC +5V; pinos 4, 7 e 8 não conectados](docs/img/png/geniecom_console_facing.png)
 
 ### Famicom e Geniecom (porta DB15)
 
 A pinagem da porta DB15 do Geniecom segue o mesmo padrão do Famicom. A Light Gun do Famicom funciona no Geniecom (testado e confirmado). Com um [adaptador Famicom → NES](https://misteraddons.com/products/nes-controllers-to-famicom-console-adapter), consegui conectar dois controles de NES e uma [Zapper](https://en.wikipedia.org/wiki/NES_Zapper) ao Geniecom.
 
-![Pinagem DB15 idêntica no Famicom e no Geniecom, vista pelo lado do console, com as portas de controle 1 e 2 do NES e a porta do TwinHead PC-100 como referência](docs/img/famicom_console_facing.png)
+![Pinagem DB15 idêntica no Famicom e no Geniecom, vista pelo lado do console, com as portas de controle 1 e 2 do NES e a porta do TwinHead PC-100 como referência](docs/img/png/famicom_console_facing.png)
 
 ### NES
 
-![Conector de controle do NES: pino 1 Ground, 2 Clock, 3 Latch or Strobe, 4 Data, 5 Power or VCC +5V; pino 6 D3 e pino 7 D4, usados pela Zapper e sem função no controle padrão](docs/img/nes_pinout.png)
+![Conector de controle do NES: pino 1 Ground, 2 Clock, 3 Latch or Strobe, 4 Data, 5 Power or VCC +5V; pino 6 D3 e pino 7 D4, usados pela Zapper e sem função no controle padrão](docs/img/png/nes_pinout.png)
 
 ### Famicom (DB15) e portas do NES
 
 Ligação entre a porta DB15 no padrão Famicom (exemplo: TwinHead PC-100) e as portas de controle 1 e 2 do NES. Os fios de Ground, Power e Latch são compartilhados pelas duas portas.
 
-![Diagrama de ligação entre a porta DB15 do Famicom e as duas portas de controle do NES: Ground, Power e Latch compartilhados; Clock e Data separados por jogador](docs/img/nes_famicom_pinout.png)
+![Diagrama de ligação entre a porta DB15 do Famicom e as duas portas de controle do NES: Ground, Power e Latch compartilhados; Clock e Data separados por jogador](docs/img/png/nes_famicom_pinout.png)
 
 ## Terminologia
 
@@ -100,7 +100,7 @@ Cortei os cabos dos dois extensores e liguei entre si os fios de mesma função.
 
 Cada linha do diagrama é uma função. Leia da esquerda para a direita: o pino do DB9 (lado Geniecom), a cor do fio correspondente no cabo do Mega Drive, a função, a cor do fio do cabo do NES que deve ser emendado a ele e o pino do NES. A cor da linha identifica a função, e as cores dos fios são as dos cabos que usei.
 
-![Diagrama de ligação do adaptador: Ground, pino 1 do DB9 (fio vermelho do Mega Drive) ao pino 1 do NES (fio branco); Clock, pino 6 (verde) ao pino 2 (verde); Latch or Strobe, pino 3 (cinza) ao pino 3 (amarelo); Data, pino 5 (marrom) ao pino 4 (preto); Power or VCC +5V, pino 9 (amarelo) ao pino 5 (vermelho); Sound, pino 2 (preto), não ligado; pinos 4, 7 e 8 do DB9 e 6 e 7 do NES sem uso](docs/img/adaptador_ligacao.png)
+![Diagrama de ligação do adaptador: Ground, pino 1 do DB9 (fio vermelho do Mega Drive) ao pino 1 do NES (fio branco); Clock, pino 6 (verde) ao pino 2 (verde); Latch or Strobe, pino 3 (cinza) ao pino 3 (amarelo); Data, pino 5 (marrom) ao pino 4 (preto); Power or VCC +5V, pino 9 (amarelo) ao pino 5 (vermelho); Sound, pino 2 (preto), não ligado; pinos 4, 7 e 8 do DB9 e 6 e 7 do NES sem uso](docs/img/png/adaptador_ligacao.png)
 
 | Função | Cor do fio (Mega Drive) | Cor do fio (NES) |
 | --- | --- | --- |
@@ -149,7 +149,7 @@ Os números dos pinos estão no diagrama e na tabela de [correlação](#correla�
 
 Esta belezinha!
 
-![Adaptador NES para Geniecom pronto: cabo com conector DB9 fêmea de um lado, conector NES de 7 pinos do outro e anel de ferrite sobre uma mesa de madeira](docs/img/adaptadornesgeniecom.jpg)
+![Adaptador NES para Geniecom pronto: cabo com conector DB9 fêmea de um lado, conector NES de 7 pinos do outro e anel de ferrite sobre uma mesa de madeira](docs/img/jpg/adaptadornesgeniecom.jpg)
 
 ## PCB (Gerber)
 
@@ -186,16 +186,16 @@ A placa chegou e foi montada com os dois conectores.
 
 | | |
 | --- | --- |
-| ![PCB montada, vista geral, com as serigrafias "Geniecom" e "NES"](docs/img/pcb/pcb_montada_vista_geral.jpg) | ![PCB montada, verso, com QR code e a numeração 0004](docs/img/pcb/pcb_montada_verso.jpg) |
+| ![PCB montada, vista geral, com as serigrafias "Geniecom" e "NES"](docs/img/jpg/pcb_montada_vista_geral.jpg) | ![PCB montada, verso, com QR code e a numeração 0004](docs/img/jpg/pcb_montada_verso.jpg) |
 | Vista geral: conector DB9 (lado Geniecom) e conector NES. | Verso da placa, com os terminais dos conectores. |
-| ![Conector DB9 fêmea da PCB](docs/img/pcb/pcb_montada_conector_db9.jpg) | ![Conector NES de 7 pinos da PCB](docs/img/pcb/pcb_montada_conector_nes.jpg) |
+| ![Conector DB9 fêmea da PCB](docs/img/jpg/pcb_montada_conector_db9.jpg) | ![Conector NES de 7 pinos da PCB](docs/img/jpg/pcb_montada_conector_nes.jpg) |
 | Conector DB9 fêmea, que encaixa no Geniecom. | Conector NES de 7 pinos, que recebe o controle ou o Retro Receiver. |
 
 ## Bônus: outros clones
 
 Pinagem dos demais clones que consegui coletar:
 
-![Pinagem de outros clones: plug de cabo de reposição, joystick do Atari 2600 (Up, Down, Left, Right, Fire, Ground), NES original, Turbo Game, Phantom System, TCP-3, Dynavision TPC-1 e Famiclone genérico](docs/img/demais_clones_pinout.png)
+![Pinagem de outros clones: plug de cabo de reposição, joystick do Atari 2600 (Up, Down, Left, Right, Fire, Ground), NES original, Turbo Game, Phantom System, TCP-3, Dynavision TPC-1 e Famiclone genérico](docs/img/png/demais_clones_pinout.png)
 
 ## Estrutura do repositório
 
@@ -206,8 +206,10 @@ Pinagem dos demais clones que consegui coletar:
 ├── .gitignore
 ├── docs/
 │   ├── historia.md            # Motivação, busca pela pinagem e agradecimentos
-│   └── img/                   # Diagramas de pinagem e fotos do adaptador
-│       └── pcb/               # Fotos da PCB montada
+│   └── img/                   # Imagens, separadas por formato
+│       ├── jpg/               # Fotos do adaptador e da PCB montada
+│       ├── png/               # Diagramas de pinagem e ligação (usados no README)
+│       └── svg/               # Fontes vetoriais (editáveis) dos diagramas
 └── hardware/
     ├── gerber_geniecom.zip    # Arquivos Gerber da PCB
     ├── bom.csv                # Lista de materiais
