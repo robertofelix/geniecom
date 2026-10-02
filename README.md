@@ -12,6 +12,7 @@ Documentação da pinagem do controle do Geniecom, um Famiclone vendido no Brasi
 - [Montando o adaptador](#montando-o-adaptador)
 - [PCB (Gerber)](#pcb-gerber)
 - [Bônus: outros clones](#bônus-outros-clones)
+  - [Phantom System](#phantom-system)
 - [Estrutura do repositório](#estrutura-do-repositório)
 - [Créditos](#créditos)
 - [Licença](#licença)
@@ -197,6 +198,47 @@ Pinagem dos demais clones que consegui coletar:
 
 ![Pinagem de outros clones: plug de cabo de reposição, joystick do Atari 2600 (Up, Down, Left, Right, Fire, Ground), NES original, Turbo Game, Phantom System, TCP-3, Dynavision TPC-1 e Famiclone genérico](docs/img/png/demais_clones_pinout.png)
 
+### Phantom System
+
+O Phantom System foi o primeiro famiclone brasileiro, lançado pela Gradiente no final dos anos 1980, numa época em que a Nintendo não demonstrava interesse em lançar o NES oficialmente no país. A placa é basicamente a de um NES, montada num gabinete no estilo do Atari 7800, com um controle que lembra o do Mega Drive. Ele usa os mesmos cartuchos de 72 pinos do NES e se tornou o clone mais popular do Brasil. Saiba mais no [Bojogá](https://bojoga.com.br/acervo/consoles-de-mesa/geracao-3/phantom-system/).
+
+Ao contrário do Geniecom, a pinagem do conector DB9 do Phantom System segue exatamente a mesma ordem do conector de 7 pinos do NES: não há remapeamento de função por pino, só ligar "pino a pino".
+
+| Função | Pino DB9 (Phantom System) | Pino NES |
+| --- | --- | --- |
+| Ground | 1 | 1 |
+| Clock | 2 | 2 |
+| Latch or Strobe | 3 | 3 |
+| Data | 4 | 4 |
+| Power or VCC +5V | 5 | 5 |
+| Sem função (terra da blindagem do conector) | 6, 7, 8 e 9 | Não usado |
+
+Fonte: esquemático abaixo, conferido no layout da PCB (arquivos na seção seguinte). Essa correlação é a mesma já registrada na tabela "Turbo Game / Phantom System / TCP-3" da imagem de pinagem dos outros clones, acima.
+
+![Esquemático do adaptador NES para Phantom System: conector DB9-RIGHT-ANGLE FEMALE com os pinos 1 a 5 ligados diretamente aos pinos 1 a 5 do conector NES de 7 pinos; os pinos 6 a 9 do DB9 vão só para GND](docs/img/png/phantom_sch.png)
+
+#### PCB (Gerber) — Phantom System
+
+No mesmo projeto do EasyEDA, montei uma segunda PCB com a pinagem do Phantom System, no mesmo padrão da PCB do Geniecom.
+
+| Arquivo | Descrição |
+| --- | --- |
+| [hardware/gerber_phantom.zip](hardware/gerber_phantom.zip) | Gerber, pronto para enviar à fábrica de PCB |
+| [hardware/easyeda/phantom_pcb.json](hardware/easyeda/phantom_pcb.json) | Layout da PCB, arquivo-fonte editável (importe no EasyEDA) |
+| [docs/img/svg/phantom_sch.svg](docs/img/svg/phantom_sch.svg) | Esquemático, exportado do EasyEDA (o arquivo-fonte editável do esquemático não foi incluído) |
+| [hardware/bom_phantom.csv](hardware/bom_phantom.csv) | Lista de materiais (BOM) |
+
+![Layout da PCB do adaptador NES para Phantom System no EasyEDA, mostrando o conector NES de 7 pinos à esquerda ligado ao conector DB9 do Phantom System à direita](docs/img/png/phantom_pcb_layout.png)
+
+Esta PCB ainda não foi fabricada ou montada; os arquivos acima estão prontos para quem quiser produzi-la.
+
+##### Lista de materiais
+
+| Designador | Descrição | Qtd. | Compra |
+| --- | --- | --- | --- |
+| NES | Conector de controle NES, 7 pinos fêmea, ângulo reto | 1 | [AliExpress](https://www.aliexpress.com/item/32828024202.html) |
+| PHANTOM | Conector DB9 fêmea, ângulo reto | 1 | [AliExpress](https://www.aliexpress.com/item/4001214300548.html) |
+
 ## Estrutura do repositório
 
 ```text
@@ -210,13 +252,17 @@ Pinagem dos demais clones que consegui coletar:
 │       ├── jpg/               # Fotos do adaptador e da PCB montada
 │       ├── png/               # Diagramas de pinagem e ligação (usados no README)
 │       └── svg/               # Fontes vetoriais (editáveis) dos diagramas
+│           └── phantom_sch.svg    # Esquemático do adaptador Phantom System (exportado do EasyEDA)
 └── hardware/
-    ├── gerber_geniecom.zip    # Arquivos Gerber da PCB
-    ├── bom.csv                # Lista de materiais
+    ├── gerber_geniecom.zip    # Arquivos Gerber da PCB do Geniecom
+    ├── gerber_phantom.zip     # Arquivos Gerber da PCB do Phantom System
+    ├── bom.csv                # Lista de materiais do Geniecom
+    ├── bom_phantom.csv        # Lista de materiais do Phantom System
     └── easyeda/
-        ├── geniecom_sch.json  # Esquemático (EasyEDA)
-        ├── geniecom_pcb.json  # Layout da PCB (EasyEDA)
-        └── geniecom_pcb.pdf   # Visualização do layout
+        ├── geniecom_sch.json  # Esquemático do Geniecom (EasyEDA)
+        ├── geniecom_pcb.json  # Layout da PCB do Geniecom (EasyEDA)
+        ├── geniecom_pcb.pdf   # Visualização do layout do Geniecom
+        └── phantom_pcb.json   # Layout da PCB do Phantom System (EasyEDA)
 ```
 
 ## Créditos
