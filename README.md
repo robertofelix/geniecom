@@ -1,6 +1,6 @@
-# Adaptador NES para Geniecom (DB9/DE9)
+# Adaptador NES para Famiclones Brasileiros: Geniecom, Phantom System, Top Game e Turbo Game
 
-Documentação da pinagem do controle do Geniecom, um Famiclone vendido no Brasil, e projeto de um adaptador para usar controles de NES (inclusive o 8BitDo Retro Receiver) nele.
+Documentação da pinagem do controle de famiclones vendidos no Brasil e projeto de adaptadores (cabo e PCB) para usar controles de NES, inclusive o 8BitDo Retro Receiver, neles. O motivador original deste repositório foi o Geniecom (DB9/DE9); a documentação do Phantom System, do Top Game e do Turbo Game (que compartilham a mesma pinagem entre si) foi incluída depois, como bônus.
 
 ## Sumário
 
