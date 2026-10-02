@@ -12,7 +12,7 @@ Documentação da pinagem do controle do Geniecom, um Famiclone vendido no Brasi
 - [Montando o adaptador](#montando-o-adaptador)
 - [PCB (Gerber)](#pcb-gerber)
 - [Bônus: outros clones](#bônus-outros-clones)
-  - [Phantom System, Top Game e Turbo Game](#phantom-system)
+  - [Phantom System, Top Game e Turbo Game](#phantom-system-top-game-e-turbo-game)
 - [Estrutura do repositório](#estrutura-do-repositório)
 - [Créditos](#créditos)
 - [Licença](#licença)
@@ -198,9 +198,11 @@ Pinagem dos demais clones que consegui coletar:
 
 ![Pinagem de outros clones: plug de cabo de reposição, joystick do Atari 2600 (Up, Down, Left, Right, Fire, Ground), NES original, Turbo Game, Phantom System, TCP-3, Dynavision TPC-1 e Famiclone genérico](docs/img/png/demais_clones_pinout.png)
 
-### Phantom System
+### Phantom System, Top Game e Turbo Game
 
-O Phantom System foi o primeiro famiclone brasileiro, lançado pela Gradiente no final dos anos 1980, numa época em que a Nintendo não demonstrava interesse em lançar o NES oficialmente no país. A placa é basicamente a de um NES, montada num gabinete no estilo do Atari 7800, com um controle que lembra o do Mega Drive. Ele usa os mesmos cartuchos de 72 pinos do NES e se tornou o clone mais popular do Brasil. Saiba mais no [Bojogá](https://bojoga.com.br/acervo/consoles-de-mesa/geracao-3/phantom-system/).
+O Phantom System foi um dos primeiros famiclones brasileiros, lançado pela Gradiente por volta de 1989, numa época em que a Nintendo não demonstrava interesse em lançar o NES oficialmente no país. A placa é basicamente a de um NES, montada numa carcaça que sobrou de um projeto de lançar o Atari 7800 no Brasil, com um controle que lembra o do Mega Drive. Ele usa os mesmos cartuchos de 72 pinos do NES e se tornou o clone mais popular do Brasil. Saiba mais no [Bojogá](https://bojoga.com.br/acervo/consoles-de-mesa/geracao-3/phantom-system/).
+
+O Top Game e o Turbo Game, da CCE, são outros dois famiclones da mesma época que usam a mesma base de projeto: o Top Game (modelos VG-8000 e VG-9000) foi concorrente direto do Phantom System, e o Turbo Game (VG-9000T) chegou em 1991 como sua evolução, trocando de nome e adotando um controle inspirado no do Mega Drive, só que invertido e com botões turbo. Por compartilharem a mesma origem de projeto do controle, a pinagem do conector é a mesma nos três consoles.
 
 Ao contrário do Geniecom, a pinagem do conector DB9 do Phantom System segue exatamente a mesma ordem do conector de 7 pinos do NES: não há remapeamento de função por pino, só ligar "pino a pino".
 
@@ -216,8 +218,6 @@ Ao contrário do Geniecom, a pinagem do conector DB9 do Phantom System segue exa
 Fonte: o esquemático abaixo, confirmado também no layout da PCB (arquivos na seção seguinte). Essa correlação é a mesma já registrada na tabela "Turbo Game / Phantom System / TCP-3" da imagem de pinagem dos outros clones, acima.
 
 ![Esquemático do adaptador NES para Phantom System: conector DB9-RIGHT-ANGLE FEMALE com os pinos 1 a 5 ligados diretamente aos pinos 1 a 5 do conector NES de 7 pinos; os pinos 6 a 9 do DB9 vão só para GND](docs/img/png/phantom_sch.png)
-
-O Top Game e o Turbo Game, outros dois famiclones vendidos no Brasil, seguem o mesmo esquemático e a mesma pinagem do Phantom System. Por isso, o mesmo esquemático, a mesma PCB e o mesmo adaptador descritos abaixo servem para os três consoles.
 
 #### PCB (Gerber) do Phantom System, Top Game e Turbo Game
 
